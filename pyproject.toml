@@ -23,6 +23,8 @@ dependencies = [
     "transformers",
     "packaging",
     "setuptools>=61.0.0",
+    "lm-eval==0.4.2",
+    "datasets==2.19.0"
 ]
 [project.urls]
 Repository = "https://github.com/state-spaces/mamba"
