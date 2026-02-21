@@ -51,3 +51,21 @@
 |              |       |none  |     0|acc_norm  |0.5391|±  |0.0102|
 |arc_challenge |      1|none  |     0|acc       |0.2628|±  |0.0129|
 |              |       |none  |     0|acc_norm  |0.2927|±  |0.0133|
+
+# mamba-1.4b
+
+|    Tasks     |Version|Filter|n-shot|  Metric  |Value |   |Stderr|
+|--------------|------:|------|-----:|----------|-----:|---|-----:|
+|winogrande    |      1|none  |     0|acc       |0.6133|±  |0.0137|
+|piqa          |      1|none  |     0|acc       |0.7416|±  |0.0102|
+|              |       |none  |     0|acc_norm  |0.7383|±  |0.0103|
+|openbookqa    |      1|none  |     0|acc       |0.2620|±  |0.0197|
+|              |       |none  |     0|acc_norm  |0.3640|±  |0.0215|
+|lambada_openai|      1|none  |     0|perplexity|5.0424|±  |0.1206|
+|              |       |none  |     0|acc       |0.6489|±  |0.0066|
+|hellaswag     |      1|none  |     0|acc       |0.4506|±  |0.0050|
+|              |       |none  |     0|acc_norm  |0.5914|±  |0.0049|
+|arc_easy      |      1|none  |     0|acc       |0.6553|±  |0.0098|
+|              |       |none  |     0|acc_norm  |0.6115|±  |0.0100|
+|arc_challenge |      1|none  |     0|acc       |0.2995|±  |0.0134|
+|              |       |none  |     0|acc_norm  |0.3285|±  |0.0137|
